@@ -123,7 +123,6 @@ header .nav{
     justify-content: space-between;
     width: 1920px;
     height: 600px;
-    border: 2px solid red;
     margin-right: -20px;
     background:linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -308,6 +307,14 @@ header .nav{
     line-height: normal;
  }
  @media screen and (max-width:576px) {
-
+ .nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
  }
+ }
+@media screen and(min-width:577px) and (max-width:992px){
+   .nav{
+    
+   }
+}
  
