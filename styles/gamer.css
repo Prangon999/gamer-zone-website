@@ -5,3 +5,189 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/* shared style  */
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+     font-weight: 600;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: 0;
+}
+/* header related style */
+header .nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); 
+    padding: 40px 200px; 
+    width:1920px;
+    height: 130px;
+    border: 2px solid red;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gamer{
+    color: #FF42A5 ;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.amer{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+.icon-img{
+    display: flex;
+    padding: 44px 20px 46px 240px;
+}
+.anchor > ul {
+    display: flex;
+}
+.anchor li{
+    list-style: none;
+    margin-right: 200px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.anchor a{
+    text-decoration: none;
+    color: #3C354F;
+    margin-right: 150px;
+}
+/* banner related styles  */
+.banner-container{
+    display: flex;
+    align-items: center;
+    margin-left:200px;
+}
+.banner-content{
+    width: 900px;
+    height:700px;
+    margin-top: 10px;
+    border: 2px solid red;
+}
+   
+.banner-tittle{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+.goat{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-bottom: 10px;
+}
+.banner-description{
+   padding:40px 400px 17px 276px;
+   color: #534C64;
+   font-size: 20px;
+   font-weight: 500;
+}
+.image{
+    padding: 19px 240px 22px 68px;
+}
+.go-rouge{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px; 
+}
+#sign-in{
+    margin: 5px 24px 148px 200px;
+}
+/* features realeted styles  */
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1920px;
+    height: 600px;
+}
+.features-tittle{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 95px 240px 24px;
+}
+.features-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 520px;
+    padding: 0px 240px 24px;
+}
+.features-extra{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px; 
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+    padding: 0px 240px 96px 32px;
+}
+.features ,.btn-primary{
+    text-align: right;
+    margin: 32px 240px 24px 364px;
+}
+.cool-features{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    
+}
+.features, img{
+    padding: 55px 52px 56px 0px;
+}
+/* funny vedio related styles started */
+.funny-vedio-tittle{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny-vedio-extra{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.funny-vedio-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.funny-vedio-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 24px 24px 240px;
+    gap:24px;
+}
