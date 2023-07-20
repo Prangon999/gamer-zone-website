@@ -45,7 +45,8 @@ header .nav{
 }
 .icon-img{
     display: flex;
-    padding: 44px 20px 46px 240px;
+    padding: 40px 20px 46px 240px;
+    align-items: center;
 }
 .anchor > ul {
     display: flex;
@@ -65,7 +66,7 @@ header .nav{
 .banner-container{
     display: flex;
     align-items: center;
-    margin-left:200px;
+    margin-left:100px;
 }
 .banner-content{
     width: 900px;
@@ -123,6 +124,8 @@ header .nav{
     justify-content: space-between;
     width: 1920px;
     height: 600px;
+    border: 2px solid red;
+    margin-right: -20px;
 }
 .features-tittle{
     text-align: right;
@@ -141,7 +144,7 @@ header .nav{
     font-weight: 400;
     line-height: 30px; /* 166.667% */
     width: 520px;
-    padding: 0px 240px 24px;
+    
 }
 .features-extra{
     color: #534C64;
@@ -191,3 +194,92 @@ header .nav{
     padding: 48px 24px 24px 240px;
     gap:24px;
 }
+/* play section realated styles  */
+.play{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-download{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 350px;
+}
+.prince-img{
+    padding: 220px,200px;
+}
+.queen-img{
+    position:relative;
+    bottom:400px ;
+    right:200px;
+}
+.play-content{
+    padding: 300px 265px 300px;
+    margin: 10px 50px;
+}
+.button-primary{
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    background: #FFF;
+}
+.button{
+    display: flex;
+   
+}
+.button-holder{
+    display: flex;
+    
+}
+ /* footer related styles  */
+ footer{
+    width: 1920px;
+    height: 636px;
+    /* background: #0B0223; */
+    gap: 20px;
+ }
+ footer .icon-img{
+   padding: 150px 900px 56px 600px;
+ }
+ footer .amer{
+        color: black;
+        font-size: 45px;
+        font-weight: 700px;
+ }
+ footer  ul{
+    display: inline-flex;
+    padding: 30px;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+ }
+ footer li{
+    list-style: none;
+    color: #1a1818;
+   text-align: center;
+   font-size: 18px;
+  font-weight: 600;
+ }
+ .text{
+    margin-left:350px;
+ }
+ 
